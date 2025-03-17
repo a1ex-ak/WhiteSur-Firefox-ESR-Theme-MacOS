@@ -349,10 +349,12 @@ menuitem[type="radio"]:not([disabled="true"]):hover .menu-iconic-icon {
 
 .bookmark-item[container] {
 	list-style-image: url("../icons/folder-symbolic.svg") !important;
+	filter: invert(40%) brightness(150%);
 }
-.bookmark-item .menu-iconic-icon{
+
+/*.bookmark-item .menu-iconic-icon{
 	filter: invert(1);
-}
+}*/
 
 /* Invert icons color in dark variant */
 @media (prefers-color-scheme: dark) {
@@ -438,6 +440,10 @@ menuitem[type="radio"]:not([disabled="true"]):hover .menu-iconic-icon {
 	#plugins-notification-icon:not(.plugin-blocked) > .plugin-icon,
 	.bookmark-item[container] .toolbarbutton-icon {
 		filter: invert(60%) brightness(150%);
+	}
+
+	.bookmark-item .menu-iconic-icon {
+		filter: invert(0);
 	}
 
 	#pocket-button,
