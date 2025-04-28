@@ -27,6 +27,6 @@
 
 /* Set theme version text in customization panel */
 #customization-footer::before {
-	content: "WhiteSur Firefox-УЫК Theme (MacOS) v128";
+	content: "WhiteSur Firefox-ESR Theme (MacOS) v128";
 	padding: 11px;
 }
